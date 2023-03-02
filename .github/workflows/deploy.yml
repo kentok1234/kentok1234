@@ -53,6 +53,9 @@ jobs:
         with:
           name: production-files
           path: ./dist
+      - name: delete all
+        run: |
+          rm -rf ** && find . -name . -o -prune -exec rm -rf -- {} +
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
