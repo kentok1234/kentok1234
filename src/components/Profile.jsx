@@ -4,12 +4,15 @@ function Profile() {
       <h1>Milda Aditia Putra</h1>
       <p>Frontend Developer</p>
       <div className="cta">
-        <button>
+        <a href="mailto:aditia.putra100@gmail.com">
           <i className="material-icons">email</i> Email
-        </button>
-        <button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/milda-aditia-putra-278a78182/"
+          target="_blank"
+        >
           <i className="material-icons">link</i> LinkedIn
-        </button>
+        </a>
       </div>
     </div>
   );
